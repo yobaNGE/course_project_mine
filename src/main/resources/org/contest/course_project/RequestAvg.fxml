@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.contest.course_project.controllers.aggregation.RequestAvg">
+   <children>
+      <Button fx:id="back" layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onAction="#goBack" text="Назад" />
+      <Label layoutX="176.0" layoutY="46.0" text="Средний балл экзаменов с золотой медалью" />
+      <Label fx:id="output" layoutX="249.0" layoutY="80.0" prefHeight="17.0" prefWidth="103.0" textAlignment="CENTER" />
+      <Button layoutX="274.0" layoutY="118.0" mnemonicParsing="false" onAction="#find" text="Поиск" />
+   </children>
+</AnchorPane>

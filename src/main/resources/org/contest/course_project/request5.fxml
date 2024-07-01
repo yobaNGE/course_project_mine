@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.contest.course_project.controllers.search.Request5">
+    <children>
+        <Button fx:id="back" layoutX="40.0" layoutY="361.0" mnemonicParsing="false" onAction="#goBack" text="Назад" />
+        <Button layoutX="40.0" layoutY="322.0" mnemonicParsing="false" onAction="#find" text="Поиск" />
+        <TextField fx:id="textInput1" layoutX="13.0" layoutY="273.0" prefHeight="25.0" prefWidth="107.0" promptText="дисциплина" />
+        <TextField fx:id="textInput2" layoutX="13.0" layoutY="237.0" prefHeight="25.0" prefWidth="107.0" promptText="балл" />
+        <TableView fx:id="tableView" layoutX="133.0" layoutY="8.0" prefHeight="386.0" prefWidth="459.0">
+            <columns>
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>

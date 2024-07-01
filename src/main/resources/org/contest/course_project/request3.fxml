@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.contest.course_project.controllers.search.Request3"
+            prefHeight="400.0" prefWidth="600.0">
+    <children>
+        <Button fx:id="back" layoutX="40.0" layoutY="361.0" mnemonicParsing="false" onAction="#goBack" text="Назад" />
+        <Button layoutX="40.0" layoutY="322.0" mnemonicParsing="false" onAction="#find" text="Поиск" />
+        <TextField fx:id="textInput" layoutX="13.0" layoutY="273.0" prefHeight="25.0" prefWidth="107.0" promptText="дисциплина" />
+        <TableView fx:id="tableView" layoutX="133.0" layoutY="8.0" prefHeight="386.0" prefWidth="459.0">
+            <columns>
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>
