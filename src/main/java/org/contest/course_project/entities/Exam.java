@@ -102,6 +102,6 @@ public class Exam {
     }
     @Override
     public String toString() {
-        return id.toString();
+        return discipline.getName();
     }
 }

@@ -55,6 +55,7 @@ public class Cud implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         utilities.createColumns(tableView, Teacher.class);
+        refresh(null);
         tableView.setOnMouseClicked((MouseEvent event) -> {
             if (event.getClickCount() > 1) {
                 onEdit();
@@ -62,7 +63,6 @@ public class Cud implements Initializable {
         });
     }
     private void onEdit() {
-        // Проверяем, что из TableView выбрана строка
         if (tableView.getSelectionModel().getSelectedItem() != null) {
             Teacher teacher = (Teacher) tableView.getSelectionModel().getSelectedItem();
             id.setText(String.valueOf(teacher.getId()));
